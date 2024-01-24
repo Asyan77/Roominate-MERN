@@ -1,0 +1,67 @@
+.comment-details a{
+    /* display: flex; */
+    color: black;
+    gap: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    width: 10px;
+}
+
+.comment-details {
+    margin-left: 10px;
+}
+
+.author-name {
+    margin-left: 10px;
+}
+
+.comment-body {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    gap: 25px;
+}
+
+.comment-body p{
+    margin: 0;
+}
+
+.edit-links {
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+    margin-left: 65%;
+    /* background-color: rgb(89, 120, 147) */
+    ;
+}
+.date-PDS {
+    font-weight: 100;
+    font-size: 12px;
+    /* mar-left: 20px; */
+}
+
+
+.edit-PDS {
+height: 15px;
+}
+
+.delete-confirmation {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: rgb(111, 157, 185) solid 3px;
+    height: 80px;
+}
+.delete-text{
+    padding-bottom: 10px;
+}
+.delete-options {
+    cursor: pointer;
+}
+
+.delete-options:hover{
+    color: purple;
+}

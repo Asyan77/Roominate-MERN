@@ -1,0 +1,184 @@
+.whole-navbar {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+    width: 100%;
+    top: 0;
+    background-color: white;
+    position: fixed;
+    min-width: 1000px;
+    border-bottom: rgb(210, 154, 15) solid 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.navbar-middle {
+    display: flex;
+}
+
+.nav-logo {
+    height: 50px;
+}
+
+/* .openAI {
+    margin-top: 10px;
+    font-size: 12px;
+} */
+
+.MERN-title {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 35px;
+    color:  rgb(210, 154, 15);
+    min-width: 200px;
+    /* background-color: purple; */
+}
+
+.community-LO {
+    color: rgb(111, 157, 185);
+    /* min-width: 140px; */
+    /* font-size: 18px; */
+    /* background-color: aquamarine; */
+}
+
+.team-LO {
+    color: rgb(111, 157, 185);
+    /* min-width: 120px; */
+}
+
+.right-navlinks-logged-out{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+.log-in {
+    font-size: 18px;
+    min-width: 60px;
+    color: rgb(111, 157, 185);
+    /* background-color: palevioletred; */
+}
+
+.left-navlinks-logged-in {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-right: 50vw; */
+    width: 370px;
+    min-width: 370px;
+    color: rgb(111, 157, 185);
+}
+
+.left-navlinks-logged-out {
+    display: flex;
+    gap: 20px;
+}
+
+.projects{
+    /* margin-left: 2vw; */
+    color: rgb(111, 157, 185);
+    min-width: 120px;
+}
+
+.community {
+    color: rgb(111, 157, 185);
+    /* min-width: 120px; */
+}
+
+.team {
+    color: rgb(111, 157, 185);
+    /* min-width: 120px; */
+}
+
+
+.right-navlinks-logged-in {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-right: 2vw;
+    /* background-color: pink; */
+}
+
+.create-project {
+    font-size: 17px;
+    /* padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 11px;
+    padding-right: 11px; */
+    height: 42px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    width: 140px;
+    border: none;
+    background-color: rgb(229, 176, 44);
+    cursor: pointer;
+}
+
+.create-project:hover {
+    background-color: rgb(203, 157, 40);
+}
+
+.get-started {
+    font-size: 20px;
+    color: white;
+    height: 42px;
+    width: 140px;
+    border-radius: 20px;
+    background-color: rgb(229, 176, 44);
+    border: none;
+}
+
+.get-started:hover {
+    background-color: rgb(203, 157, 40);
+}
+
+.log-out{
+    color: rgb(111, 157, 185);
+    min-width: 60px;
+}
+
+.navbar-search {
+    display: flex;
+    height: 35px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+.navbar-search:focus-within {
+    border: 1px solid
+}
+
+
+.navbar-search button {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: none;
+    width: 40px;
+    cursor: pointer;
+}
+
+.navbar-search input {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    width: 15vw;
+    min-width: 150px;
+    padding-left: 10px;
+}
+
+.navbar-search input:focus {
+    outline: none;
+}
+

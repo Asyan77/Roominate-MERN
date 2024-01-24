@@ -1,0 +1,32 @@
+.project-index-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 620px;
+    min-width: 1000px;
+    width: inherit;
+    /* background-color: pink; */
+    /* background-color: #f5f5f5; */
+    /* border: 1px solid #ccc; */
+}
+
+.project-header {
+    margin-top: 1%;
+    font-size: 30px;
+    /* background-color: yellow; */
+}
+
+.projects-index-grid {
+    /* position: absolute; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Creates 4 columns with equal width */
+    gap: 35px; 
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  .created-text {
+    font-size: 12px;
+    font-weight: 200;
+    /* color: rgb(111, 157, 185); */
+  }

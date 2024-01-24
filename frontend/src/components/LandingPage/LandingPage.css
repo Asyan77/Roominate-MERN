@@ -1,0 +1,69 @@
+.whole-landing-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: inherit;
+    min-width: 900px;
+    /* justify-content: center; */
+    gap: 10px;
+}
+
+.photos-container {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+}
+
+.landing-photo {
+    width: 350px;
+    height: 350px;
+}
+
+
+
+
+.how-it-works-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-size: 50px;
+}
+
+.welcome{
+    color: rgb(210, 154, 15);
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.steps {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 750px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom:  rgb(229, 176, 44) solid 2px;
+
+}
+
+.count {
+    font-size: 45px;
+}
+
+.steps-text {
+    font-size: 20px;
+    text-overflow: wrap;
+    display: flex;
+    align-items: center;
+    width: 650px;
+}
+
+.new-project{
+    width: 300px;
+}

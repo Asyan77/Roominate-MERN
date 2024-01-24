@@ -1,0 +1,57 @@
+.team-whole-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: purple; */
+
+}
+.top-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    gap: 35px;
+}
+
+.team-card { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    border:  rgb(210, 154, 15) solid 2px;
+    width: 320px;
+    color:rgb(49, 114, 154);
+    text-align: center;
+}
+
+
+.team-photo {
+    object-fit: cover;
+    width: 300px;
+    height: 325px;
+    margin-bottom: 15px;
+}
+
+.team-links {
+    display: flex;
+    gap: 10px;
+}
+
+.github,
+.linkedIn {
+    height: 35px;
+    width: 35px;
+}
+
+.bottom-section {
+    margin-top: 50px;
+    display: flex;
+    margin-bottom: 30vh;
+    gap: 35px;
+}
